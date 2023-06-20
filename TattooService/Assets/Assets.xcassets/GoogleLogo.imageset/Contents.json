@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "Google_Chrome_icon_(February_2022).svg-20.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "Google_Chrome_icon_(February_2022).svg-20@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "Google_Chrome_icon_(February_2022).svg-20@3x.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
