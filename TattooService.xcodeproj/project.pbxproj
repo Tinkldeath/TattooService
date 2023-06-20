@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		324BE6002A41A68C00F8DE80 /* GreetingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324BE5FF2A41A68C00F8DE80 /* GreetingsViewController.swift */; };
+		324BE6022A41A6C300F8DE80 /* UserDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324BE6012A41A6C300F8DE80 /* UserDetailsViewController.swift */; };
+		324BE6032A41A98C00F8DE80 /* Inter-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 32C97FD42A419BE200C0658C /* Inter-Black.ttf */; };
+		324BE6042A41A98C00F8DE80 /* Inter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 32C97FDA2A419BE300C0658C /* Inter-Bold.ttf */; };
+		324BE6052A41A98C00F8DE80 /* Inter-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 32C97FD62A419BE300C0658C /* Inter-ExtraBold.ttf */; };
+		324BE6062A41A98C00F8DE80 /* Inter-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 32C97FD82A419BE300C0658C /* Inter-ExtraLight.ttf */; };
+		324BE6072A41A98C00F8DE80 /* Inter-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 32C97FD92A419BE300C0658C /* Inter-Light.ttf */; };
+		324BE6082A41A98C00F8DE80 /* Inter-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 32C97FD72A419BE300C0658C /* Inter-Medium.ttf */; };
+		324BE6092A41A98C00F8DE80 /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 32C97FDC2A419BE300C0658C /* Inter-Regular.ttf */; };
+		324BE60A2A41A98C00F8DE80 /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 32C97FDB2A419BE300C0658C /* Inter-SemiBold.ttf */; };
+		324BE60B2A41A98C00F8DE80 /* Inter-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 32C97FD52A419BE300C0658C /* Inter-Thin.ttf */; };
+		324BE60D2A41AAFA00F8DE80 /* InputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324BE60C2A41AAFA00F8DE80 /* InputViewController.swift */; };
+		324BE60F2A41ADAD00F8DE80 /* TattooStylesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324BE60E2A41ADAD00F8DE80 /* TattooStylesViewController.swift */; };
+		324BE6112A41BF2300F8DE80 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324BE6102A41BF2300F8DE80 /* SignUpViewController.swift */; };
+		32C97FD12A419B4F00C0658C /* FirstLaunch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32C97FD02A419B4F00C0658C /* FirstLaunch.storyboard */; };
 		32CFCD5F2A3B1BA1005C2E0F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CFCD5E2A3B1BA1005C2E0F /* AppDelegate.swift */; };
 		32CFCD612A3B1BA1005C2E0F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CFCD602A3B1BA1005C2E0F /* SceneDelegate.swift */; };
 		32CFCD632A3B1BA1005C2E0F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CFCD622A3B1BA1005C2E0F /* ViewController.swift */; };
@@ -19,6 +34,21 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		324BE5FF2A41A68C00F8DE80 /* GreetingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingsViewController.swift; sourceTree = "<group>"; };
+		324BE6012A41A6C300F8DE80 /* UserDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailsViewController.swift; sourceTree = "<group>"; };
+		324BE60C2A41AAFA00F8DE80 /* InputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputViewController.swift; sourceTree = "<group>"; };
+		324BE60E2A41ADAD00F8DE80 /* TattooStylesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TattooStylesViewController.swift; sourceTree = "<group>"; };
+		324BE6102A41BF2300F8DE80 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		32C97FD02A419B4F00C0658C /* FirstLaunch.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FirstLaunch.storyboard; sourceTree = "<group>"; };
+		32C97FD42A419BE200C0658C /* Inter-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Black.ttf"; sourceTree = "<group>"; };
+		32C97FD52A419BE300C0658C /* Inter-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Thin.ttf"; sourceTree = "<group>"; };
+		32C97FD62A419BE300C0658C /* Inter-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-ExtraBold.ttf"; sourceTree = "<group>"; };
+		32C97FD72A419BE300C0658C /* Inter-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Medium.ttf"; sourceTree = "<group>"; };
+		32C97FD82A419BE300C0658C /* Inter-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-ExtraLight.ttf"; sourceTree = "<group>"; };
+		32C97FD92A419BE300C0658C /* Inter-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Light.ttf"; sourceTree = "<group>"; };
+		32C97FDA2A419BE300C0658C /* Inter-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Bold.ttf"; sourceTree = "<group>"; };
+		32C97FDB2A419BE300C0658C /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-SemiBold.ttf"; sourceTree = "<group>"; };
+		32C97FDC2A419BE300C0658C /* Inter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Regular.ttf"; sourceTree = "<group>"; };
 		32CFCD5B2A3B1BA1005C2E0F /* TattooService.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TattooService.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32CFCD5E2A3B1BA1005C2E0F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		32CFCD602A3B1BA1005C2E0F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -46,6 +76,94 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		324BE5FE2A41A67A00F8DE80 /* FirstLaunch */ = {
+			isa = PBXGroup;
+			children = (
+				324BE5FF2A41A68C00F8DE80 /* GreetingsViewController.swift */,
+				324BE6012A41A6C300F8DE80 /* UserDetailsViewController.swift */,
+				324BE60E2A41ADAD00F8DE80 /* TattooStylesViewController.swift */,
+				324BE6102A41BF2300F8DE80 /* SignUpViewController.swift */,
+			);
+			path = FirstLaunch;
+			sourceTree = "<group>";
+		};
+		324BE6132A41BFD900F8DE80 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				32CFCD622A3B1BA1005C2E0F /* ViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		324BE6142A41C00800F8DE80 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				32CFCD6C2A3B1BA3005C2E0F /* LaunchScreen.storyboard */,
+				32CFCD642A3B1BA1005C2E0F /* Main.storyboard */,
+				32C97FD02A419B4F00C0658C /* FirstLaunch.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		32C97FCA2A41917A00C0658C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		32C97FCB2A41918100C0658C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				324BE6142A41C00800F8DE80 /* Storyboards */,
+				324BE6132A41BFD900F8DE80 /* Main */,
+				324BE5FE2A41A67A00F8DE80 /* FirstLaunch */,
+				324BE60C2A41AAFA00F8DE80 /* InputViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		32C97FCC2A41918600C0658C /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		32C97FCD2A41919700C0658C /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				32CFCD672A3B1BA1005C2E0F /* TattooService.xcdatamodeld */,
+				32CFCD752A3B1C79005C2E0F /* CoreDataManager.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		32C97FD22A419BB200C0658C /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				32C97FD32A419BC000C0658C /* Fonts */,
+				32CFCD6A2A3B1BA3005C2E0F /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		32C97FD32A419BC000C0658C /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				32C97FD42A419BE200C0658C /* Inter-Black.ttf */,
+				32C97FDA2A419BE300C0658C /* Inter-Bold.ttf */,
+				32C97FD62A419BE300C0658C /* Inter-ExtraBold.ttf */,
+				32C97FD82A419BE300C0658C /* Inter-ExtraLight.ttf */,
+				32C97FD92A419BE300C0658C /* Inter-Light.ttf */,
+				32C97FD72A419BE300C0658C /* Inter-Medium.ttf */,
+				32C97FDC2A419BE300C0658C /* Inter-Regular.ttf */,
+				32C97FDB2A419BE300C0658C /* Inter-SemiBold.ttf */,
+				32C97FD52A419BE300C0658C /* Inter-Thin.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		32CFCD522A3B1BA1005C2E0F = {
 			isa = PBXGroup;
 			children = (
@@ -67,15 +185,14 @@
 		32CFCD5D2A3B1BA1005C2E0F /* TattooService */ = {
 			isa = PBXGroup;
 			children = (
+				32C97FD22A419BB200C0658C /* Assets */,
+				32C97FCD2A41919700C0658C /* Data */,
+				32C97FCC2A41918600C0658C /* ViewModels */,
+				32C97FCB2A41918100C0658C /* Views */,
+				32C97FCA2A41917A00C0658C /* Models */,
 				32CFCD5E2A3B1BA1005C2E0F /* AppDelegate.swift */,
 				32CFCD602A3B1BA1005C2E0F /* SceneDelegate.swift */,
-				32CFCD622A3B1BA1005C2E0F /* ViewController.swift */,
-				32CFCD642A3B1BA1005C2E0F /* Main.storyboard */,
-				32CFCD6A2A3B1BA3005C2E0F /* Assets.xcassets */,
-				32CFCD6C2A3B1BA3005C2E0F /* LaunchScreen.storyboard */,
 				32CFCD6F2A3B1BA3005C2E0F /* Info.plist */,
-				32CFCD672A3B1BA1005C2E0F /* TattooService.xcdatamodeld */,
-				32CFCD752A3B1C79005C2E0F /* CoreDataManager.swift */,
 			);
 			path = TattooService;
 			sourceTree = "<group>";
@@ -94,7 +211,6 @@
 				C2874902A05553737B7A428E /* Pods-TattooService.debug.xcconfig */,
 				FF2162A3F2DB1CE31CBF0C27 /* Pods-TattooService.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -158,6 +274,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				324BE6032A41A98C00F8DE80 /* Inter-Black.ttf in Resources */,
+				324BE6042A41A98C00F8DE80 /* Inter-Bold.ttf in Resources */,
+				324BE6052A41A98C00F8DE80 /* Inter-ExtraBold.ttf in Resources */,
+				324BE6062A41A98C00F8DE80 /* Inter-ExtraLight.ttf in Resources */,
+				324BE6072A41A98C00F8DE80 /* Inter-Light.ttf in Resources */,
+				324BE6082A41A98C00F8DE80 /* Inter-Medium.ttf in Resources */,
+				324BE6092A41A98C00F8DE80 /* Inter-Regular.ttf in Resources */,
+				324BE60A2A41A98C00F8DE80 /* Inter-SemiBold.ttf in Resources */,
+				324BE60B2A41A98C00F8DE80 /* Inter-Thin.ttf in Resources */,
+				32C97FD12A419B4F00C0658C /* FirstLaunch.storyboard in Resources */,
 				32CFCD6E2A3B1BA3005C2E0F /* LaunchScreen.storyboard in Resources */,
 				32CFCD6B2A3B1BA3005C2E0F /* Assets.xcassets in Resources */,
 				32CFCD662A3B1BA1005C2E0F /* Main.storyboard in Resources */,
@@ -213,9 +339,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				324BE60D2A41AAFA00F8DE80 /* InputViewController.swift in Sources */,
 				32CFCD632A3B1BA1005C2E0F /* ViewController.swift in Sources */,
+				324BE6002A41A68C00F8DE80 /* GreetingsViewController.swift in Sources */,
 				32CFCD5F2A3B1BA1005C2E0F /* AppDelegate.swift in Sources */,
+				324BE6112A41BF2300F8DE80 /* SignUpViewController.swift in Sources */,
 				32CFCD692A3B1BA1005C2E0F /* TattooService.xcdatamodeld in Sources */,
+				324BE60F2A41ADAD00F8DE80 /* TattooStylesViewController.swift in Sources */,
+				324BE6022A41A6C300F8DE80 /* UserDetailsViewController.swift in Sources */,
 				32CFCD762A3B1C79005C2E0F /* CoreDataManager.swift in Sources */,
 				32CFCD612A3B1BA1005C2E0F /* SceneDelegate.swift in Sources */,
 			);
@@ -371,7 +502,7 @@
 				INFOPLIST_KEY_CFBundleDisplayName = Tatoos;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -407,7 +538,7 @@
 				INFOPLIST_KEY_CFBundleDisplayName = Tatoos;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
