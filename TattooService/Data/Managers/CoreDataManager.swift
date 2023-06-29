@@ -2,7 +2,7 @@ import Foundation
 import CoreData
 
 
-class CoreDataManager {
+final class CoreDataManager {
     
     private static var _instance = CoreDataManager()
     

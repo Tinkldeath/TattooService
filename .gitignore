@@ -90,3 +90,5 @@ fastlane/test_output
 iOSInjectionProject/
 *.DS_Store
 *.lock
+Secret/
+*GoogleService-Info.plist
