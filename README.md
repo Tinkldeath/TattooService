@@ -2,12 +2,11 @@
 
 
 ## Common Features:
-* iOS 16.0+
-* Authorization and registration (Google and Apple supported)
-* In-app authentication (Touch Id, Face Id, Password)
+* iOS 15.0+
+* Authorization and registration (Google and Apple will be supported)
 * Profile management
 * Settings (notifications, biometric login, cache management)
-* Push-notifications
+* Push-notifications (will be added)
 
 
 ## Client Features:

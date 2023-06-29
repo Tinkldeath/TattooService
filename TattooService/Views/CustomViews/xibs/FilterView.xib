@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Inter-SemiBold.ttf">
+            <string>Inter-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FilterView" customModule="TattooService" customModuleProvider="target">
+            <connections>
+                <outlet property="filterButton" destination="RCp-pj-L9D" id="7uM-Qf-T0D"/>
+                <outlet property="filterLabel" destination="XgP-V4-WyC" id="zaG-IC-kJ0"/>
+                <outlet property="tableView" destination="mMP-DO-czf" id="qhj-Ml-dVT"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="464"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="mMP-DO-czf">
+                    <rect key="frame" x="10" y="44" width="300" height="410"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                </tableView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XgP-V4-WyC">
+                    <rect key="frame" x="10" y="5" width="256" height="34"/>
+                    <fontDescription key="fontDescription" name="Inter-SemiBold" family="Inter" pointSize="13"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RCp-pj-L9D">
+                    <rect key="frame" x="276" y="5" width="34" height="34"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="34" id="5OK-Il-e08"/>
+                        <constraint firstAttribute="height" constant="34" id="QoU-sm-lgx"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" image="slider.horizontal.3" catalog="system">
+                        <color key="baseForegroundColor" systemColor="labelColor"/>
+                    </buttonConfiguration>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="RCp-pj-L9D" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="5" id="06f-Dw-KrS"/>
+                <constraint firstItem="XgP-V4-WyC" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="5" id="CB0-HC-uwd"/>
+                <constraint firstItem="mMP-DO-czf" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="10" id="GfO-o3-6qp"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="RCp-pj-L9D" secondAttribute="trailing" constant="10" id="JTw-AK-dbH"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="mMP-DO-czf" secondAttribute="bottom" constant="10" id="Juv-NU-hVm"/>
+                <constraint firstItem="XgP-V4-WyC" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="10" id="VZw-sE-Jcm"/>
+                <constraint firstItem="mMP-DO-czf" firstAttribute="top" secondItem="XgP-V4-WyC" secondAttribute="bottom" constant="5" id="Zck-8c-yTb"/>
+                <constraint firstItem="RCp-pj-L9D" firstAttribute="leading" secondItem="XgP-V4-WyC" secondAttribute="trailing" constant="10" id="aLY-CS-VmW"/>
+                <constraint firstItem="mMP-DO-czf" firstAttribute="top" secondItem="RCp-pj-L9D" secondAttribute="bottom" constant="5" id="al5-d2-nxT"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="mMP-DO-czf" secondAttribute="trailing" constant="10" id="dcL-ob-nU6"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="105" y="12.67605633802817"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="slider.horizontal.3" catalog="system" width="128" height="99"/>
+        <systemColor name="labelColor">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

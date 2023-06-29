@@ -1,4 +1,4 @@
-platform :ios, '16.0'
+platform :ios, '15.0'
 
 target 'TattooService' do
 
@@ -6,6 +6,8 @@ target 'TattooService' do
 
   pod 'RxSwift', '~>6'
   pod 'RxCocoa', '~>6'
-  pod 'RealmSwift', '~>10'
+  pod 'FirebaseAuth'
+  pod 'FirebaseFirestore'
+  pod 'FirebaseStorage'
 
 end
