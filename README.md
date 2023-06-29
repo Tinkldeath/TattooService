@@ -3,9 +3,9 @@
 
 ## Common Features:
 * iOS 15.0+
-* Authorization and registration (Google and Apple will be supported)
+* Authorization and registration (Google and Apple will be added)
 * Profile management
-* Settings (notifications, biometric login, cache management)
+* Settings (notifications, keychain sharing, cache management)
 * Push-notifications (will be added)
 
 
